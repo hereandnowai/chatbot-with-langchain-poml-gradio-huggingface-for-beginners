@@ -123,3 +123,7 @@ dmypy.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Secrets and tokens
+create_space_with_token.py
+*.token
