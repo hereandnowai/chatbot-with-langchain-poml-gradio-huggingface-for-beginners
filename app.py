@@ -21,12 +21,19 @@ with gr.Blocks(theme='default', title=brand_info['organizationName']) as demo:
         description=brand_info['slogan'], # Set the description/slogan
         type="messages", # Specify the message format
         examples=[
-            ["What is AI?"],
-            ["Can you explain machine learning?"],
-            ["How does a neural network work?"],
-            ["What is natural language processing?"],
-        ] # Example prompts for the chatbot
-    )
+                    ["How do you say 'hello' in French and which polite greetings should you use?"],
+                    ["Can you explain the conjugation of the verb 'être' in the present tense?"],
+                    ["What is the difference between 'tu' and 'vous' and when should you use each?"],
+                    ["How do you form the passé composé? Give examples with regular and irregular verbs."],
+                    ["When do we use the subjunctive in French? Give simple examples."],
+                    ["Give me exercises to practice adjective agreement."],
+                    ["Can you correct this sentence and explain the error: 'Je suis aller au marché.'?"],
+                    ["How do you correctly pronounce the French 'r' sound? Practical tips."],
+                    ["Translate into French: 'I have been learning French for two years.'"],
+                    ["Explain the use of 'en' and 'y' with clear examples."],
+                    ["Which French idiomatic expressions should I know? Give 5 examples with their meanings."],
+                    ["Provide a short beginner-level dialogue for ordering at a café in French."]
+                    ])
 
 # Launch the Gradio interface when the script is executed
 if __name__ == "__main__":
